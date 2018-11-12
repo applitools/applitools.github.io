@@ -1,0 +1,80 @@
+/*----- cards ---*/
+
+.cardBody {
+  height:170px;
+}
+a :hover {
+  color:teal;
+}
+.cardSectionHeader {
+  padding-bottom:30px;margin-top:30px;
+}
+.cardTopSection {
+  height: 10px; width: 100%; display: block; text-align:center;
+}
+
+.cardAColor {
+  color:white;
+}
+.cardText {
+  text-align:center;padding:70px;
+}
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 10px;
+  line-height: 10px; /* Vertically center the text there */
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+
+
+code {
+  font-size: 80%;
+}
+
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
