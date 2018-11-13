@@ -1,10 +1,19 @@
 /*----- cards ---*/
 
+.cardBorder {
+  box-shadow: 0 1px 5px 0 rgb(229, 237, 251), 0 7px 17px 0 rgb(196, 214, 245);
+  border-radius: 20px;
+}
 .cardBody {
   height:170px;
 }
-a :hover {
-  color:teal;
+a:hover {
+  color:white !important;
+  text-decoration: none !important;
+}
+a.light:hover {
+  color:black !important;
+  text-decoration: none !important;
 }
 .cardSectionHeader {
   padding-bottom:30px;margin-top:30px;
